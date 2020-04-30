@@ -1,0 +1,7 @@
+/target/
+/.idea/
+/allure-results/*
+/log/*
+/screenshots/*
+/drivers/*
+*.iml

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Filpkart tests">
+	<test name="Filpkart search results tests"  >
+	 <parameter name="brand" value="Sparx"/>
+	 <parameter name="maxPrice" value="500" />
+		<classes>
+				<class name="com.tests.SearchPageTest"></class>
+				<class name="com.tests.ProductDetailPageTest"></class>
+		</classes>
+	</test>
+</suite>
